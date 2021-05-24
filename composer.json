@@ -1,0 +1,24 @@
+{
+    "name": "bonfix/dalili-sms",
+    "authors": [
+        {
+            "name": "Bonfix",
+            "email": "bonfixn@gmail.com"
+        }
+    ],
+    "type": "project",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Bonfix\\DaliliSms\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bonfix\\DaliliSms\\DaliliSmsServiceProvider"
+            ]
+        }
+    }
+}
